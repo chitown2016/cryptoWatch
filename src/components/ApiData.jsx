@@ -1,7 +1,7 @@
 import React from 'react';
 import CoinCard from './CoinCard.jsx';
 
-function ApiData({apiData, minMarketCap, setMibMarketCap}){
+function ApiData({apiData, minMarketCap, setMinMarketCap}){
 
     //I just moved this from App.jsx into here
     // Filter and sort data based on minimum market cap and 24h change
